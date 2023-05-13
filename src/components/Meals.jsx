@@ -4,7 +4,7 @@ import Lottie from "lottie-react";
 import loadingAnime from './loadingAnime.json'
 
 const Meals = () => {
-    const {loading,meals} = useGlobalContext();
+    const {loading,meals,selectMeal, addToFavorites,removeFromFavorites} = useGlobalContext();
    
      if(loading){
       return <section className="section-load">
@@ -24,10 +24,10 @@ const Meals = () => {
         const {idMeal, strMeal:title, strMealThumb:image} = singleMeal;
 
         return <article key={idMeal} className="single-meal">
-          <img src={image} alt={title} className="img" />
+          <img src={image} alt={title} className="img" onClick={()=> selectMeal(idMeal)} />
           <footer>
             <h5>{title}</h5>
-            <button className="like-btn"><BsHandThumbsUp/></button>
+            <button className="like-btn" onClick={()=> addToFavorites(idMeal)}><BsHandThumbsUp/></button>
           </footer>
         </article>
       })}
