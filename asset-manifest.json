@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Meals-app/static/css/main.7d7b69ec.css",
+    "main.js": "/Meals-app/static/js/main.522b82d0.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Meals-app/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/Meals-app/index.html",
+    "main.7d7b69ec.css.map": "/Meals-app/static/css/main.7d7b69ec.css.map",
+    "main.522b82d0.js.map": "/Meals-app/static/js/main.522b82d0.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Meals-app/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d7b69ec.css",
+    "static/js/main.522b82d0.js"
+  ]
+}
